@@ -1,0 +1,34 @@
+/* Styling for various elements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"], button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+/* Styling for repository cards */
+#repositories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.repository {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
